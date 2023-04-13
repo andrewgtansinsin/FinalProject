@@ -105,7 +105,7 @@ namespace Rest_Sharp.Tests
             var clientPutResponse = await RestClient.ExecutePutAsync<BookingResponseJsonModel>(clientPutRequest);
 
             // Assert
-            Assert.IsNotNull(clientBookingResponse, "Result from GET is null");
+            Assert.IsNotNull(clientPutResponse, "Result from PUT is null");
             Assert.AreEqual(HttpStatusCode.OK, clientPutResponse.StatusCode, "Failed due to wrong status code.");
 
             // Get Updated Booking Details

@@ -43,24 +43,6 @@ namespace Rest_Sharp.Helpers
 
         }
 
-        ///// <summary>
-        ///// Send GET request to get new booking id
-        ///// </summary>
-        /////
-        //public async Task<BookingResponseJsonModel> GetNewBookingId(RestClient client)
-        //{
-
-        //    var getRequest = new RestRequest(Endpoints.GetBookingIds());
-
-        //    //GET response for new booking id
-        //    var getResponse = await client.ExecuteGetAsync<BookingResponseJsonModel>(getRequest);
-
-        //    var getBookingId = getResponse.Data.BookingId;
-
-        //    return getBookingId;
-
-        //}
-
         /// <summary>
         /// Send POST request for Authentication Bearer Token
         /// </summary>
